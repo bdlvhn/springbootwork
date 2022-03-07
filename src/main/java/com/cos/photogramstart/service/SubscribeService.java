@@ -35,7 +35,7 @@ public class SubscribeService {
 		sb.append("WHERE s.fromUserId = ?"); // 세미콜론 첨부하면 안됨
 		
 		// 첫 번째 물음표 principalId
-		// 두 번째 물엄표 principalId
+		// 두 번째 물음표 principalId
 		// 마지막 물음표 pageUserId
 		
 		// 쿼리 완성
