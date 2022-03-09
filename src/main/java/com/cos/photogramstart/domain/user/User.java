@@ -55,7 +55,7 @@ public class User {
 	// Eager = User를 select할 때 해당 UserId로 등록된 image를 전부 join해서 가져와
 	@OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
 	@JsonIgnoreProperties({"user"})
-	private List<Image> images;
+	private List<Image> images; // 양방향 매핑
 	
 	private LocalDateTime createDate;
 	
