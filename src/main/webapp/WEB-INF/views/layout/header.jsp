@@ -32,8 +32,11 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
+
 <body>
-	
+
+	<!-- principalId 담아두는 곳 -->
+	<input type="hidden" id="principalId" value="${principal.user.id}" />
 	<header class="header">
 		<div class="container">
 			<a href="/" class="logo">
